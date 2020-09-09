@@ -1,0 +1,10 @@
+/*.place__*/.paragraph_second {
+    margin: 0;
+    grid-area: text-second;
+}
+/*
+@media screen and (max-width: 320px) {
+    .paragraph_second {
+        min-height: 235px;
+    }
+}*/

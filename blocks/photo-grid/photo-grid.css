@@ -1,0 +1,13 @@
+.photo-grid {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(auto-fit, minmax(284px, max-content));
+    gap: 16px;
+    grid-auto-flow: dense;
+    /*min-width: 1184px;*/
+   /* min-height: calc(100vh - 32px);*/
+    /*box-sizing: border-box;*/
+    width: 100%;
+    min-height: 671px;
+}
+

@@ -1,0 +1,15 @@
+.footer__links {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Suisse Intl';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+@media screen and (max-width: 320px) {
+    .footer__links {
+        margin-bottom: 48px;
+    }
+}

@@ -1,0 +1,10 @@
+.footer__navigation-item {
+    display: inline;
+}
+
+@media screen and (max-width: 320px) {
+    .footer__navigation-item {
+        display: block;
+        margin-bottom: 32px;
+    }
+}

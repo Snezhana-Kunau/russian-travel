@@ -1,0 +1,29 @@
+.website__link {
+    font-family: 'Suisse Intl';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    max-width: 456px;
+    max-height: 22px;
+    text-decoration: underline;
+    align-self: end;
+    
+}
+
+.website__link:link {
+    color:#ffffff;
+}
+
+.website__link:visited {
+    color: #ffffff;
+}
+
+.website__link:hover {
+    cursor: url('/images/Pointer.svg'), pointer;
+    opacity: 0.8;
+}
+
+.website__link:active {
+    color: #ffffff;
+}

@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(../../../vendor/inter/web/Inter-Black.woff);
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../../vendor/inter/Inter/Web/Inter-Regular.woff);
+}
+
+.root {
+    font-family: Inter;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    
+    background: #2a2a2a;
+    max-width: 1280px;
+    min-height:/* calc(60vh - 52px);*/ 6875px;
+    margin: 0 auto;
+    padding: 28px 48px;
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .root {
+        max-width: 1024px;
+        padding: 28px 24px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .root {
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .root {
+        max-width: 540px;
+        padding: 16px 16px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .root {
+        max-width: 320px;
+    }
+}

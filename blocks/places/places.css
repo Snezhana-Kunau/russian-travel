@@ -1,0 +1,39 @@
+.places {
+    width: 100%;
+    min-height: 3392px;
+    margin: 92px auto;
+    color: #ffffff;
+   /* display: flex;
+    flex-direction: column;
+    justify-content: space-around;*/
+   /* width: 100%;
+    margin: 92px auto;
+    color: #ffffff;
+    box-sizing: border-box;
+    font-size: 0;*/
+}
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .places {
+        margin: 92px 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .places {
+        height: 4586px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places {
+        display: flex;
+        flex-direction: column;
+        height: 4786px;
+    }
+}
