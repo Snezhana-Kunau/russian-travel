@@ -13,6 +13,14 @@
     src: url(../../vendor/inter/Inter/Web/Inter-Regular.woff);
 }
 
+@font-face {
+    font-family: 'Inter';
+    font-weight: bold;
+    font-style: normal;
+    src: url(../../vendor/inter/Inter/web/Inter-Bold.woff);
+
+}
+
 .root {
     font-family: Inter;
     -moz-osx-font-smoothing: grayscale;
