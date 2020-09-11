@@ -1,6 +1,6 @@
-.place__paragraph {
-    /*display: flex;
-    flex-direction: column;*/
+.place__paragraph-text {
+    display: flex;
+    flex-direction: column;
     font-family: 'Inter';
     font-style: normal;
     font-weight: normal;
@@ -15,26 +15,27 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .place__paragraph {
+    .place__paragraph-text {
         max-width: 456px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .place__paragraph {
+    .place__paragraph-text {
         font-size: 16px;
     }
 }
 
 @media screen and (max-width: 540px) {
-    .place__paragraph {
+    .place__paragraph-text {
 
         height: min-content;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .place__paragraph {
+    .place__paragraph-text {
         max-width: 288px;
+        margin: 0 16px;
     }
 }

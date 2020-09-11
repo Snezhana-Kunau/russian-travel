@@ -22,7 +22,7 @@
 }*/
 
 .root {
-    font-family: Inter;
+    font-family: 'Inter';
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
@@ -32,16 +32,16 @@
     
    
     max-width: 1280px;
-    min-height:/* calc(60vh - 52px);*/ 6875px;
+    /*min-height: calc(60vh - 52px); 6875px;*/
     margin: 0 auto;
     padding: 28px 48px;
-    
+    background-color: #2a2c2f;
 }
 
 @media screen and (max-width: 1024px) {
     .root {
         max-width: 1024px;
-        padding: 28px 24px;
+        padding: 28px 0;
     }
 }
 
@@ -61,5 +61,6 @@
 @media screen and (max-width: 320px) {
     .root {
         max-width: 320px;
+        padding: 0;
     }
 }

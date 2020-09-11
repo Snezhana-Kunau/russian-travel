@@ -1,7 +1,7 @@
 .intro {
     max-width: 690px;
-    min-height: 429px;
-    margin-left: 148px;
+   /* min-height: 429px;*/
+    margin-left: 132px;
     margin-top: 92px;
     margin-bottom: 92px;
     color: #ffffff;
@@ -9,6 +9,18 @@
 
 @media screen and (max-width: 1024px){
     .intro {
-        margin-left: 0;
+        margin-left: 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro {
+        margin: 88px 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro {
+        margin: 64px 16px;
     }
 }

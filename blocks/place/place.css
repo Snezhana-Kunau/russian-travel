@@ -1,43 +1,45 @@
 .place {
     display: grid;
-    grid-template-columns: repeat(2, minmax(240px, 1fr));
-    grid-template-rows: 30% 70%;
+    grid-template-columns: repeat(2, minmax(min-content, max-content));
+    grid-template-rows: 23% auto;
     grid-template-areas: 
       "title website"
       "image text";
     column-gap: 40px;
-    
+    row-gap: 48px;
    
-    width: 75%;
-    height: 660px;
-    margin: 80px auto;
+    max-width: 90%;
+   /* min-height: 660px;*/
+    margin: 80px 132px;
+   
     
 }
 
 @media screen and (max-width: 1024px) {
   .place {
     column-gap: 32px;
-    width: 95%;
+    max-width: 95%;
+    margin: 80px 48px;
 
   }
 }
 
 @media screen and (max-width: 768px) {
   .place {
-    grid-template-rows: 20% 80%;
-    max-width: 720px;
-    height: 582px;
-    margin: 72px 0;
+    
+    margin-left:  24px;
+    margin-right: 24px;
   }
 }
 
 @media screen and (max-width: 540px) {
   .place {
+    width: 100%;
     margin-bottom: 48px;
     display: flex;
     flex-direction: column;
     margin-bottom: 48px;
-    min-height: 765px;
+   /* min-height: 765px;*/
     
   }
   
@@ -46,7 +48,8 @@
 @media screen and (max-width: 320px) {
   .place {
     width: 100%;
-    height: 965px;
+    margin: 0;
+    grid-row: 15% auto;
     
   }
 }

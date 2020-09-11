@@ -1,12 +1,13 @@
 .place__website {
     grid-area: website;
+    flex-direction: column;
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
     max-width: 460px;
-    height: 152px;
-    flex-direction: column;
-    margin-bottom: 48px;
+    min-height: 152px;
+    
+   /* margin-bottom: 48px;*/
     /*grid-column: 2;*/
 }
 

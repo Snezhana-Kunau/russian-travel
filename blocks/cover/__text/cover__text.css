@@ -1,9 +1,9 @@
 .cover__text {
-    position: absolute;
-    top: 0;
+    position: relative;
+   /* top: 0;
     left: 0;
     bottom: 0;
-    right: 0;
+    right: 0;*/
     width: 100%;
     /*height: 100%;*/
     
@@ -11,15 +11,28 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0;
+    margin: 245px auto;
     z-index: 1;
-    box-sizing: border-box;
+   /* box-sizing: border-box;*/
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__text {
+        margin: 195px auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__text {
+        margin: 115px auto;
+    }
 }
 
 @media screen and (max-width: 540px) {
     .cover__text {
         font-size: 52px;
         line-height: 56px;
+        margin: 74px auto;
         /*height: 400px;*/
     }
 }
@@ -29,5 +42,6 @@
         max-width: 288px;
         font-size: 32px;
         line-height: 35px;
+        margin: 33px auto;
     }
 }
