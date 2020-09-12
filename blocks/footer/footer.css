@@ -9,12 +9,12 @@
     color: #000000;
     display: flex;
     justify-content: space-between;
-    margin: 92px 0;
+    margin: 92px 48px 24px;
 }
 
 @media screen and (max-width: 768px) {
     .footer {
-        margin: 88px auto;
+        margin: 88px 24px;
     }
 }
 
