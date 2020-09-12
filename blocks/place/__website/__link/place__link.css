@@ -1,5 +1,5 @@
 .place__link {
-    font-family: 'Suisse Intl';
+    font-family: 'Inter';
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -7,7 +7,7 @@
     max-width: 456px;
     max-height: 22px;
     text-decoration: underline;
-    align-self: end;
+    align-self: flex-start;
     
 }
 

@@ -1,16 +1,13 @@
 .place {
     display: grid;
     grid-template-columns: repeat(2, minmax(min-content, max-content));
-    grid-template-rows: 23% auto;
+    grid-template-rows: auto;
     grid-template-areas: 
       "title website"
       "image text";
     column-gap: 40px;
     row-gap: 48px;
-   
-    max-width: 90%;
-   /* min-height: 660px;*/
-    margin: 80px 132px;
+    margin-bottom: 80px ;
    
     
 }
@@ -18,7 +15,7 @@
 @media screen and (max-width: 1024px) {
   .place {
     column-gap: 32px;
-    max-width: 95%;
+    /*max-width: 95%;*/
     margin: 80px 48px;
 
   }

@@ -7,10 +7,11 @@
     /*min-width: 1184px;*/
    /* min-height: calc(100vh - 32px);*/
     /*box-sizing: border-box;*/
-    width: 100%;
-    /*min-height: 671px;*/
+    max-width: 92.5%;
+    margin: auto;
+   
 }
-
+/*
 @media screen and (max-width: 1024px) {
     .photo-grid {
         margin-left: 48px;
@@ -25,4 +26,4 @@
         margin-right: 16px;
         margin-bottom: 16px;
     }
-}
+}*/

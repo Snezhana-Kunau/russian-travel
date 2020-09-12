@@ -1,18 +1,18 @@
 .cover {
+    font-family: 'Inter';
     background-image: url('../../images/cover-trains.jpg');
     object-fit: cover;
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 0;
     color: #ffffff;
-    width: 100%;
-    /*max-width: 1184px;*/
-    min-height: 740px;
+    max-width: 92.5%;
+    padding-bottom: 60%;
     position: relative;
-    /*object-fit: cover;*/
-    
     display: flex;
-    /*height: 740px;*/
-    /*z-index: 2;*/
-    margin: 92px 0;
+    /*margin: 92px 0;*/
+    margin: auto;
 }
 
 .cover::before {
@@ -33,12 +33,11 @@
 
 @media screen and (max-width: 1024px) {
     .cover {
-        
-        
-        min-height: 640px;
+        max-width: 100%;
+        padding-bottom: 62.5%;
     }
 }
-
+/*
 @media screen and (max-width: 768px){
     .cover {
         min-height: 480px;
@@ -50,17 +49,12 @@
         min-height: 400px;
     }
 }
-
+*/
 @media screen and (max-width: 320px) {
     .cover {
-        max-width: 320px;
-        min-height: 200px;
+        margin-top: 64px;
+        width: 100%;
     }
     
 }
 
-@media screen and (max-width: 320px){
-    .cover::before {
-        min-height: 200px;
-    }
-}

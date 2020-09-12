@@ -1,19 +1,26 @@
 .footer {
-    font-family: 'Suisse Intl';
+    font-family: 'Inter';
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
     line-height: 18px;
-    width: 100%;
-    min-height: 18px;
+    max-width: 92.5%;
+   /* min-height: 18px;*/
     color: #000000;
     display: flex;
     justify-content: space-between;
-    margin: 0;
+    margin: 92px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        margin: 88px auto;
+    }
 }
 
 @media screen and (max-width: 320px) {
     .footer {
         flex-direction: column;
+        margin: 64px 0 24px;
     }
 }
