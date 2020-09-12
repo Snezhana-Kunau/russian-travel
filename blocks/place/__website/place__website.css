@@ -11,13 +11,6 @@
     /*grid-column: 2;*/
 }
 
-@media screen and (max-width: 768px) {
-    .place__website {
-        justify-content: end;
-       
-       /* height: 46px;*/
-    }
-}
 
 @media screen and (max-width: 540px) {
     .place__website {
