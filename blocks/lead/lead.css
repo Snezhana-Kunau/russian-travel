@@ -1,23 +1,23 @@
 .lead {
-    width: 75%;
+    max-width: 77%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     color: #ffffff;
-    margin: auto;
+    margin: 0 auto 0;
     
 }
 
 @media screen and (max-width: 1024px) {
     .lead {
-        width: 100%;
+        max-width: 100%;
     }
 }
 
 @media screen and (max-width: 768px) {
     .lead {
-        width: 100%;
+        max-width: 100%;
     }
 }
 /*
