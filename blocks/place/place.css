@@ -14,29 +14,24 @@
 
 @media screen and (max-width: 1024px) {
   .place {
-    column-gap: 32px;
-    
+    column-gap: 32px; 
     margin-bottom: 48px;
-
   }
 }
 /*
 @media screen and (max-width: 768px) {
   .place {
-    
     margin-left:  24px;
     margin-right: 24px;
   }
-}*/
-
+*/
 @media screen and (max-width: 540px) {
   .place {
     width: 100%;
     margin-bottom: 48px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 48px;
-   min-height: 765px;
+    
   }
   
 }
@@ -46,6 +41,7 @@
     width: 100%;
     margin: 0;
     grid-row: 15% auto;
-    
+    row-gap: 0;
+    column-gap: 0;
   }
 }

@@ -1,7 +1,7 @@
 .lead__caption {
   
   text-align: start;
-  margin: 8px auto 0 0;
+  margin: 0 auto 0 0;
   letter-spacing: 0.15em;
   font-size: 10px;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
@@ -10,7 +10,7 @@
   line-height: 14px;
   text-transform: uppercase;
 }
-/*
+
 @media screen and (max-width: 1024px) {
   .lead__caption {
     margin-left: 48px;
@@ -22,9 +22,9 @@
     margin-left: 24px;
   }
 }
-*/
+
 @media screen and (max-width: 320px) {
   .lead__caption {
-    padding-left: 16px;
+    margin-left: 16px;
   }
 }

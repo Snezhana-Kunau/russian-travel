@@ -1,5 +1,5 @@
 .places {
-    max-width: 78%;
+    max-width: 100%;
    /* min-height: 3392px;*/
     margin: 92px auto;
     color: #ffffff;
@@ -7,7 +7,7 @@
     flex-direction: column;
     justify-content: space-around;*/
     
-    margin: 92px auto;
+    margin: 92px 148px;
     color: #ffffff;
     box-sizing: border-box;
     font-size: 0;
@@ -19,14 +19,15 @@
 
 @media screen and (max-width: 1024px) {
     .places {
-        margin: 92px auto;
-        max-width: 90%;
+        margin: 92px 48px;
+        max-width: 100%;
     }
 }
 
 @media screen and (max-width: 768px) {
     .places {
-        max-width: 95%;
+        max-width: 100%;
+        margin: 88px 24px;
     }
 }
 
