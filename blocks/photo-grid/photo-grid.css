@@ -4,22 +4,26 @@
     grid-template-columns: repeat(auto-fit, minmax(284px, max-content));
     gap: 16px;
     grid-auto-flow: dense;
-    /*min-width: 1184px;*/
-   /* min-height: calc(100vh - 32px);*/
-    /*box-sizing: border-box;*/
-    max-width: 92.5%;
-    margin: auto;
+    width: calc(100% - 48px*2);
+    margin: 0 auto;
     justify-content: center;
    
 }
-/*
+
 @media screen and (max-width: 1024px) {
     .photo-grid {
-        margin-left: 48px;
-        margin-right: 48px;
+        gap: 14px;
     }
 }
-*/
+
+@media screen and (max-width: 768px) {
+    .photo-grid {
+        gap: 16px;
+        width: 100%;
+        
+    }
+}
+
 @media screen and (max-width: 320px) {
     .photo-grid {
        row-gap: 12px;

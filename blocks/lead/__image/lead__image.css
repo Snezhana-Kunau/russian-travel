@@ -1,7 +1,7 @@
 .lead__image {
     margin: 64px 148px 0;
     max-width: 984px;
-    height: 615px;
+    min-height: 615px;
     background-size: cover;
     /*padding-bottom: 50%;*/
     
@@ -10,8 +10,8 @@
 @media screen and (max-width: 1024px) {
     .lead__image{
         max-width: 928px;
-        height: 580px;
-        margin: 48px 56px 8px;
+        min-height: 580px;
+        margin: 56px 48px 8px;
     }
 }
 
@@ -19,7 +19,7 @@
 @media screen and (max-width: 768px) {
     .lead__image{
         max-width: 768px;
-        height: 480px;
+        min-height: 480px;
         margin: 56px 0 8px;
     }
 }
@@ -27,7 +27,7 @@
 @media screen and (max-width: 320px) {
     .lead__image{
         max-width: 320px;
-        height: 200px;
+        min-height: 200px;
         margin: 40px -2px 8px;
     }
 }

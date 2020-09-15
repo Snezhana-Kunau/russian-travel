@@ -32,6 +32,13 @@
     }
 }
 
+@media screen and (max-width: 540px){
+    .cover__title {
+        text-align: center;
+        margin: auto;
+    }
+}
+
 @media screen and (max-width: 540px) and (min-width: 320px) {
     .cover__title {
         max-width: 75%;
